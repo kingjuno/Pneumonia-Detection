@@ -13,7 +13,7 @@ def classify(filepath):
 title = "Pnuemonia Detection from chest X-Ray using PyTorch"
 description = "Detecting Pnuemonia through chest X-Ray "
 article = """<p style='text-align: center'>
-        <a href='https://www.kaggle.com/kingjuno/pneumonia-det' target='_blank'>Kaggle Notebook</a>
+        <a href='https://www.kaggle.com/kingjuno/pneumonia-det' target='_blank'>Notebook Link</a>
         <br><a href='https://github.com/kingjuno/Pneumonia-Detection' target='_blank'>Github Repo</a></p>
     """
 examples = [['samples/Normal-1.jpeg'], 
