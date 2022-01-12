@@ -1,6 +1,5 @@
 import gradio as gr
 import numpy as np
-import matplotlib.pyplot as plt
 from preprocess import preprocess
 from predict import predict
 
@@ -11,9 +10,9 @@ def classify(filepath):
 
 
 title = "Pnuemonia Detection from chest X-Ray using PyTorch"
-description = "Detecting Pnuemonia through chest X-Ray "
+description = "Detecting Pnuemonia using chest X-Ray "
 article = """<p style='text-align: center'>
-        <a href='https://www.kaggle.com/kingjuno/pneumonia-det' target='_blank'>Notebook Link</a>
+        <a href='https://nbviewer.org/github/kingjuno/Pneumonia-Detection/blob/master/notebook/pneumonia-det.ipynb?flush_cache=true' target='_blank'>Notebook Link</a>
         <br><a href='https://github.com/kingjuno/Pneumonia-Detection' target='_blank'>Github Repo</a></p>
     """
 examples = [['samples/Normal-1.jpeg'], 
